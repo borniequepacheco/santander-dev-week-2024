@@ -9,7 +9,7 @@ public class License {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(nullable = false, scale = 15)
+    @Column(nullable = false, precision = 2, scale = 0)
     private int reason;
     @Column(length = 100, nullable = false)
     private String description;
