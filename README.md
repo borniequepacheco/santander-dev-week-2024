@@ -14,8 +14,8 @@ classDiagram
         +int id
         +int reason
         +string description
-        +string start
-        +string end
+        +string dateStart
+        +string dateEnd
     }
 
     Collaborator "1" -- "0..*" License : has
