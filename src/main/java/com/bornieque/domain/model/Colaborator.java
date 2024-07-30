@@ -16,7 +16,7 @@ public class Colaborator {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<License> license;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
